@@ -6,6 +6,7 @@ export default defineConfig({
   base: "/React-tailwind-components/",
   plugins: [react()],
   build: {
-    outDir: 'dist',
-},
+    sourcemap: true,
+    minify: 'esbuild',
+  },
 });
